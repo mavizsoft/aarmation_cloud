@@ -16,6 +16,9 @@ const PrivateRoutes = () => {
   const ChatPage = lazy(() => import('../modules/apps/chat/ChatPage'))
   const UsersPage = lazy(() => import('../modules/apps/user-management/UsersPage'))
   const EnergyBillPage = lazy(() => import('../modules/energy-bill/EnergyBill'))
+  const MotorStatsPage = lazy(() => import('../modules/motor-stats/EnergyBill'))
+  const PumpStatsPage = lazy(() => import('../modules/pump-stats/EnergyBill'))
+  const DischargeStatsPage = lazy(() => import('../modules/discharge-stats/EnergyBill'))
 
   return (
     <Routes>
@@ -80,6 +83,30 @@ const PrivateRoutes = () => {
           element={
             <SuspensedView>
               <EnergyBillPage />
+            </SuspensedView>
+          }
+        />
+        <Route
+          path='pump-stats/*'
+          element={
+            <SuspensedView>
+              <PumpStatsPage />
+            </SuspensedView>
+          }
+        />
+        <Route
+          path='motor-stats/*'
+          element={
+            <SuspensedView>
+              <MotorStatsPage />
+            </SuspensedView>
+          }
+        />
+        <Route
+          path='discharge-stats/*'
+          element={
+            <SuspensedView>
+              <DischargeStatsPage />
             </SuspensedView>
           }
         />

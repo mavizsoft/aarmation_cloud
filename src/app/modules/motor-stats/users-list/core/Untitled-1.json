@@ -1,0 +1,66 @@
+{
+    "status": 200,
+    "message": "Iot data",
+    "body": [
+        {
+            "parameter": "KVAH",
+            "newReading": "27781.68",
+            "oldReading": "25075.25",
+            "consumption": "2199.68"
+        },
+        {
+            "parameter": "KWH",
+            "newReading": "27274.94",
+            "oldReading": "25556.12",
+            "consumption": "2225.56"
+        },
+        {
+            "parameter": "NORMAL HOUR KVAH \n\n   (6:00 TO 18:00 + 21:00 TO 23:59) ",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "1123.28"
+        },
+        {
+            "parameter": "PEAK HOURS KVAH \n\n  (18:00 TO 20:59)",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "230.66"
+        },
+        {
+            "parameter": "NIGHT HOURS KVAH \n\n   (0:00 TO 5:59)",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "863.98"
+        },
+        {
+            "parameter": "RECORDED DEMAND-KVA",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "42.34"
+        },
+        {
+            "parameter": "AVG. PF",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "0.98"
+        },
+        {
+            "parameter": "PUMP 1 RUNNING HOUR",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "39.37"
+        },
+        {
+            "parameter": "PUMP 2 RUNNING HOURS",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "20.23"
+        },
+        {
+            "parameter": "TOTAL BILL",
+            "newReading": "N/A",
+            "oldReading": "N/A",
+            "consumption": "₹ 14918.88"
+        }
+    ]
+}

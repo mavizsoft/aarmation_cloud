@@ -99,25 +99,25 @@ const SidebarMenuMain = () => {
         <SidebarMenuItem to='/apps/chat/drawer-chat' title='Drawer Chart' hasBullet={true} />
       </SidebarMenuItemWithSub> */}
       <SidebarMenuItem
-        to='/apps/user-management/users'
+        to='/energy-bill/bill'
         icon='abstract-28'
         title='Energy Bill'
         fontIcon='bi-layers'
       />
       <SidebarMenuItem
-        to='/energy-bill/bill'
+        to='/discharge-stats'
         icon='abstract-28'
         title='DISCHARGE STATISTICS'
         fontIcon='bi-layers'
       />
       <SidebarMenuItem
-        to='/apps/user-management/users'
+        to='/motor-stats'
         icon='abstract-28'
         title='MOTOR STATISTICS'
         fontIcon='bi-layers'
       />
       <SidebarMenuItem
-        to='/apps/user-management/users'
+        to='/pump-stats'
         icon='abstract-28'
         title='PUMP STATISTICS'
         fontIcon='bi-layers'

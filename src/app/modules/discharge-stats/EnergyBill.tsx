@@ -5,7 +5,7 @@ import {EnergyBillWrapper} from './users-list/BillList'
 const usersBreadcrumbs: Array<PageLink> = [
   // {
   //   title: 'Energy Bill',
-  //   path: 'energy-bill/bill',
+  //   path: 'motor-stats',
   //   isSeparator: false,
   //   isActive: false,
   // },
@@ -20,9 +20,9 @@ const usersBreadcrumbs: Array<PageLink> = [
 const EnergyBillPage = () => {
   return (
     <>
-    <PageTitle breadcrumbs={usersBreadcrumbs}>Discharge Statistics</PageTitle>
+    <PageTitle breadcrumbs={usersBreadcrumbs}>Motor Statistics</PageTitle>
     <EnergyBillWrapper />
-  </>
+    </>
   )
 }
 

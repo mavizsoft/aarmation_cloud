@@ -29,20 +29,20 @@ const EnergyBillWrapper = () => (
         <div className='row'>
         <div className='col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-md-6 mb-xl-10'>
         <CardsWidget8
-        className={'h-md-100 mb-10 mb-xl-10'}
+        className={'h-md-100 mb-10 mb-xl-10 bg-primary'}
         title={'ENERGY BILL MONITORING '}
         description={'JAL SHAKTI VIBHAG'} 
         icon={true}
-        division={'DIVISON-----' }
-          labelColor='dark'
-          textColor='gray-300'/>
+        division={'DIVISON : THURAL' }
+        labelColor='text-white'
+        textColor='white'/>
           </div>
           <div className='col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-md-6 mb-xl-10'>
-           <CardsWidget9
-        className={'h-md-100 mb-10 mb-xl-10'}
-        siteName={'SITE NAME'}
-        load={'SANCTIONED LOAD'} 
-        demand={'CONTRACT DEMAND'}
+          <CardsWidget9
+        className={'h-md-100 mb-10 mb-xl-10 bg-success text-light'}
+        siteName={'SITE NAME : LWSS PAPLAH'}
+        load={'SANCTIONED LOAD : 42 KW'} 
+        demand={'CONTRACT DEMAND : 50 KVA'}
 />
           </div>
           </div>

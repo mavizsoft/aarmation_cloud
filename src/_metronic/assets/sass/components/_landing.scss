@@ -134,3 +134,21 @@ body[data-kt-sticky-landing-header='on'] {
     padding-top: $landing-header-height-tablet-and-mobile;
   }
 }
+
+
+#kt_app_header_menu h1 {
+  color: #0875f5;
+  font-size: xx-large;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  font-size: xx-large
+
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -35,7 +35,8 @@ const Filter = () => {
 
   return (
     <>
-   
+   <h3 className='text-dark pt-4 mr-5' >FROM DATE</h3>
+   <span className='pr-2'>&nbsp;</span>
     <DatePicker
         selected={startDate}
         onChange={(date) => setStartDate(date)}
@@ -44,9 +45,11 @@ const Filter = () => {
         endDate={endDate}
         minDate={new Date("2023-09-07")}
         maxDate={new Date(new Date().setDate(new Date().getDate()-1))}
-        className="form form-control"
+        className="form form-control ml-5 text-dark"
       />
      <div style={{width: '30px'}}>&nbsp;</div>
+     <h3 className='text-dark pt-4 mr-5' >TO DATE</h3>
+   <span className='pr-2'>&nbsp;</span>
       <DatePicker
         selected={endDate}
         onChange={(date) => setEndDate(date)}
@@ -55,7 +58,7 @@ const Filter = () => {
         endDate={endDate}
         minDate={new Date("2023-09-07")}
         maxDate={new Date()}
-        className="form ml-5 form-control"
+        className="form ml-5 form-control text-dark"
       />
      
     </>

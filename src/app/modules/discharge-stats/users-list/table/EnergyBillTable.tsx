@@ -28,7 +28,7 @@ const EnergyBillTable = () => {
           {...getTableProps()}
         >
           <thead>
-            <tr className='text-start text-muted fw-bolder fs-7 text-uppercase gs-0'>
+            <tr className='text-start text-dark bg-secondary fw-bolder fs-5 text-uppercase gs-0'>
               {headers.map((column: ColumnInstance<EnergyBill>) => (
                 <CustomHeaderColumn key={column.id} column={column} />
               ))}

@@ -10,6 +10,7 @@ const SidebarMenuMain = () => {
 
   return (
     <>
+     <span className='py-5'></span>
       <SidebarMenuItem
         to='/dashboard'
         icon='element-11'
@@ -101,7 +102,7 @@ const SidebarMenuMain = () => {
       <SidebarMenuItem
         to='/energy-bill/bill'
         icon='abstract-28'
-        title='Energy Bill'
+        title='ENERGY BILL'
         fontIcon='bi-layers'
       />
       <SidebarMenuItem
@@ -116,12 +117,7 @@ const SidebarMenuMain = () => {
         title='MOTOR STATISTICS'
         fontIcon='bi-layers'
       />
-      <SidebarMenuItem
-        to='/pump-stats'
-        icon='abstract-28'
-        title='PUMP STATISTICS'
-        fontIcon='bi-layers'
-      />
+      
       {/* <div className='menu-item'>
         <a
           target='_blank'

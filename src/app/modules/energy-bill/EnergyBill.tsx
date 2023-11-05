@@ -3,18 +3,18 @@ import {PageLink, PageTitle} from '../../../_metronic/layout/core'
 import {EnergyBillWrapper} from './users-list/BillList'
 
 const usersBreadcrumbs: Array<PageLink> = [
-  {
-    title: 'Energy Bill',
-    path: 'energy-bill/bill',
-    isSeparator: false,
-    isActive: false,
-  },
-  {
-    title: '',
-    path: '',
-    isSeparator: true,
-    isActive: false,
-  },
+  // {
+  //   title: 'Energy Bill',
+  //   path: 'energy-bill/bill',
+  //   isSeparator: false,
+  //   isActive: false,
+  // },
+  // {
+  //   title: '',
+  //   path: '',
+  //   isSeparator: true,
+  //   isActive: false,
+  // },
 ]
 
 const EnergyBillPage = () => {

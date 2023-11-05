@@ -46,9 +46,10 @@ function usePageData() {
 type Props = {
   description?: string
   breadcrumbs?: Array<PageLink>
+  className?:string
 }
 
-const PageTitle: FC<Props & WithChildren> = ({children, description, breadcrumbs}) => {
+const PageTitle: FC<Props & WithChildren> = ({children, description, breadcrumbs,className}) => {
   const {setPageTitle, setPageDescription, setPageBreadcrumbs} = usePageData()
   useEffect(() => {
     if (children) {

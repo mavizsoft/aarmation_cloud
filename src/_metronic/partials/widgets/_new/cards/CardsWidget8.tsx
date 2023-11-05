@@ -16,13 +16,13 @@ const CardsWidget8 = ({className, title,  description, icon, division, labelColo
     <div className='card-header pt-5'>
       <div className='card-title d-flex flex-column'>
         <div className='card-title d-flex flex-column'>
-          <span className='fs-3hx fw-bold text-dark me-2 lh-1 ls-n2'>{title}</span>
-          <span className='text-dark-400 fs-2hx pt-1 fw-bold fs-6 mt-3'>{description}</span>
+          <span className={`fs-3hx fw-bold  me-2 lh-1 ls-n2   ${labelColor ? labelColor : 'text-dark'}`} >{title}</span>
+          <span className={`fs-3hx fw-bold  me-2 lh-1 ls-n2 mt-3   ${labelColor ? labelColor : 'text-dark'}`}>{description}</span>
         </div>
       </div>
     </div>
     <div className='card-body d-flex flex-column justify-content-end pe-0'>
-      <span className='text-dark-400 fs-2hx pt-1 fw-bold fs-6'>{division}</span>
+      <span className={`fs-2hx fw-bold  me-2 lh-1 ls-n2 mt-3   ${labelColor ? labelColor : 'text-dark'}`}>{division}</span>
       {/* <div className='symbol-group symbol-hover flex-nowrap'>
         {items.map((item, index) => (
           <div

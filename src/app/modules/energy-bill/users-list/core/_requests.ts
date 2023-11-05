@@ -6,7 +6,7 @@ const GET_BILL_URL = `${API_URL}/iot/getBill`
 
 const getBillData = (query: string): Promise<EnergyBillQueryResponse> => {
   return axios
-    .get(`${GET_BILL_URL}?${query}`)
+    .get(`${GET_BILL_URL}?${query+'&filter_billtype=bill'}`)
     .then((d: AxiosResponse<EnergyBillQueryResponse>) => d.data)
 }
 

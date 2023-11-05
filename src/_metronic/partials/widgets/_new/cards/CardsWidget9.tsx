@@ -14,9 +14,9 @@ const CardsWidget9 = ({className, siteName,  load, demand}: Props) => (
     <div className='card-header pt-5'>
       <div className='card-title d-flex flex-column'>
         <div className='card-title d-flex flex-column'>
-          <span className='text-dark-400 fs-2hx pt-1 fw-bold fs-6 mt-3'>{siteName}</span>
-          <span className='text-dark-400 fs-2hx pt-1 fw-bold fs-6 mt-3'>{load}</span>
-          <span className='text-dark-400 fs-2hx pt-1 fw-bold fs-6 mt-3'>{demand}</span>
+          <span className='text-white fs-2hx pt-1 fw-bold fs-6 mt-3'>{siteName}</span>
+          <span className='text-white fs-2hx pt-1 fw-bold fs-6 mt-3'>{load}</span>
+          <span className='text-white fs-2hx pt-1 fw-bold fs-6 mt-3'>{demand}</span>
         </div>
       </div>
     </div>
